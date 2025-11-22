@@ -1,6 +1,11 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-primary: #030213;
+  --color-background: #FFFFFF;
+  --color-input: #F3F3F5;
+  --color-secondary: #717182;
 
+  --border-radius: 8px;
 }
 
 * {

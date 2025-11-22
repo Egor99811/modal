@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="modal-container">
       <h1>Modal window</h1>
-      <button onClick={() => setIsOpen(true)}>Modal</button>
+      <button onClick={() => setIsOpen(true)} className='primary-button'>Modal</button>
       {isOpen && <Modal title="Modal title" closeModal={setIsOpen}>Modal content</Modal>}
     </div>
   )

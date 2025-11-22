@@ -11,4 +11,13 @@
     top: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.95);
+    color: var(--color-background);
+}
+
+.modal__button {
+    padding: 12px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-background);
+    color: var(--color-primary);
 }
